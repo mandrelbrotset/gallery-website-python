@@ -1,0 +1,14 @@
+{% extends "bootstrap.html" %}
+
+{% block title %} No result - {% endblock %}
+
+{% block head %}
+	{{ super() }}
+{% endblock %}
+
+{% block content %}
+	<div class="alert alert-info" role="alert">
+		<h1>Item</h1>
+		<p>Oh snap!, no pictures were found with that tag</p>
+	</div>
+{% endblock %}

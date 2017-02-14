@@ -1,0 +1,31 @@
+{% extends "bootstrap.html" %}
+
+{% block title %} Search Result - {% endblock %}
+
+{% block head %}
+	{{ super() }}
+{% endblock %}
+
+{% block content %}
+	{% for item in rows %}
+ 		<div class="col-sm-6 col-md-4">
+    	<div class="thumbnail">
+      	<img src="{{ url_for('static',filename='images/%s'%item[3]) }}" alt="Image not found" style="max-width:400px;max-height:400px">
+      	<div class="caption">
+       		<div class="input-group">
+        		<span class="input-group-addon" id="sizing-addon1">filename:</span>
+        		<span class="input-group-addon" id="sizing-addon1">{{item[1]}}</span>
+       		</div>
+        	<div class="input-group" style="padding-top:5px">
+        		<span class="input-group-addon" id="sizing-addon1">Tags:</span>
+        		<span class="input-group-addon" id="sizing-addon1">{{item[2]}}</span>
+       		</div>
+       		<div class="input-group" style="padding-top:5px">
+          	<span class="input-group-addon" id="sizing-addon1">Uploaded:</span>
+          	<span class="input-group-addon" id="sizing-addon1">{{item[4]}}</span>
+        	</div>
+      	</div>
+    	</div>
+  	</div>
+  {% endfor %}
+{% endblock %}
