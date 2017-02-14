@@ -1,11 +1,11 @@
 import mysql.connector
 
 config = {
-        'user':'sheriff',
-        'password':'abdullahi04',
-        'host':'localhost',
-        'port':'8080',
-        'database':'webapp_gallery'
+        'user':'database_user',
+        'password':'password',
+        'host':'ip_address_of_database',
+        'port':'port',
+        'database':'name_of_database'
         }
 
 def insert(name,tags,image_link):
