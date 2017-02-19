@@ -60,8 +60,8 @@ virtual environment
 Main flask app. Starts the server
 
 ## database.py
-Contains functions needed to connect to MySQL database.*You need to modify this file.*
-Modify the '''config''' dictionary in order to be able to connect to the database.
+Contains functions needed to connect to MySQL database. **You need to modify this file**.
+Modify the `config` dictionary in order to be able to connect to the database.
 
 ## templates folder
 The templates folder contains html files for the website. It is the default folder where flask looks for all ".html" files call upon from the different functions in the main flask script.
