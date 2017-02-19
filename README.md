@@ -54,19 +54,20 @@ virtual environment
 
 ## WIndows
 ``` /virtual environment/Scripts > activate ```
-    
-# app.py
+
+# Files and Folders
+## app.py
 Main flask app. Starts the server
 
-# database.py
+## database.py
 Contains functions needed to connect to MySQL database>
 **NOTE: You need to modify this file.**
 Modify the '''config''' dictionary in order to be able to connect to the database.
 
-# templates folder
+## templates folder
 The templates folder contains html files for the website. It is the default folder where flask looks for all ".html" files call upon from the different functions in the main flask script.
 
-# static folder
+## static folder
 * Contains all the bootstrap files (css/javascript)
 * folder for storing gallery images
 
