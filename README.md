@@ -5,6 +5,7 @@ A gallery website using flask for server side scripting. Built with flask Python
 In order to be able to create a project from the repo files, you need to make your dircetories look like this. The virtual environment folder is the containing folder for the project. The other folders except **webapp_gallery** are created automatically in the virtual environment. 
 
 ## Linux
+```
 virtual environment
 |
 ├─ webapp_gallery (folder containing project files)
@@ -24,7 +25,9 @@ virtual environment
 │   └── ...
 └─ lib
     └── ...
+```
 ## Windows
+```
 virtual environment
 |
 ├─ webapp_gallery (folder containing project files)
@@ -44,6 +47,7 @@ virtual environment
 │   └── ...
 └─ Scripts
     └── ...
+```
 # Activating Virtual Environments
 ## Linux
 ``` /virtual environment$ source activate <name of virtual environment>```
