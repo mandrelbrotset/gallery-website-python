@@ -5,7 +5,7 @@ config = {
         'password':'password',
         'host':'ip_address_of_database',
         'port':'port',
-        'database':'name_of_database'
+        'database':'gallery'
         }
 
 def insert(name,tags,image_link):
